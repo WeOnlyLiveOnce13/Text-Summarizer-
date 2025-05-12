@@ -8,7 +8,7 @@ from fastapi.responses import Response
 from src.textSummarizer.pipeline.predicition_pipeline import PredictionPipeline
 
 
-text:str = "What is Text Summarization?"
+text:str = "A small poem by Shakespeare. The poem is about love and longing. It describes the beauty of love and the pain of separation. The speaker expresses a deep desire to be with their beloved, and the poem captures the essence of romantic longing. The imagery is vivid and evocative, painting a picture of love that is both beautiful and heartbreaking."
 
 app = FastAPI()
 
